@@ -4,6 +4,8 @@
 
 ## Erro
 
+Exemplo:
+
 ```
 #include <Arduino.h>
 
