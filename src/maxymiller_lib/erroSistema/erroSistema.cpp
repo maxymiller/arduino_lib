@@ -1,6 +1,6 @@
 #include <maxymiller_lib/erroSistema.h>
 
-void erroSistema::salvarErroApp(const char *mensagem) {
+void erroSistema::salvarErroApp(String mensagem) {
     prefs.begin("erro", false);
 
     prefs.putBool("temErro", true);
