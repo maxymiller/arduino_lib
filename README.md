@@ -18,9 +18,9 @@ void setup() {
     if(megError != "") {
       Serial.println(megError);
 
-      erro.removeErroAnterior();
       erro.reboot(5);
     }
+    erro.removeErroAnterior();
 
     erro.salvarErroApp("Erro do Boot");
 
