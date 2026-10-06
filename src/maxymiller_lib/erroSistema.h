@@ -17,7 +17,7 @@ private:
 
     bool errorOk;
 public:
-    void salvarErroApp(const char *mensagem);
+    void salvarErroApp(String mensagem);
     String mostrarErroAnterior();
     void removeErroAnterior();
     void reboot(int seg);
