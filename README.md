@@ -17,12 +17,6 @@ void setup() {
     String megError = erro.mostrarErroAnterior();
     if(megError != "") {
       Serial.println(megError);
-      //tela.ligar();
-
-      tela.escrever("", 0);
-
-      tela.escrever(String(erro.getMotivo()), 2);
-      tela.escrever(String(erro.getCode()), 3);
 
       erro.removeErroAnterior();
       erro.reboot(5);
