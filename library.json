@@ -1,0 +1,22 @@
+{
+  "name": "maxymiller_lib",
+  "version": "1.0.0",
+  "description": "Biblioteca para mostrar o erro",
+  "keywords": [
+    "ESP32",
+    "Mensagem de Error"
+  ],
+  "authors": [
+    {
+      "name": "maxymiller"
+    }
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "dependencies": {
+  }
+}
