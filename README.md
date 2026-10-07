@@ -48,4 +48,44 @@ void loop() {
 |    `9` | `ESP_RST_BROWNOUT`  | Brownout: tensão/alimentação baixa   |
 |   `10` | `ESP_RST_SDIO`      | Reset através de SDIO                |
 
+```
+const char* erroSistema::nomeReset(esp_reset_reason_t motivo) {
+    switch (motivo) {
+        case ESP_RST_UNKNOWN:
+            return "UNKNOWN";
 
+        case ESP_RST_POWERON:
+            return "POWERON";
+
+        case ESP_RST_EXT:
+            return "EXTERNAL";
+
+        case ESP_RST_SW:
+            return "SOFTWARE";
+
+        case ESP_RST_PANIC:
+            return "PANIC";
+
+        case ESP_RST_INT_WDT:
+            return "INT_WDT";
+
+        case ESP_RST_TASK_WDT:
+            return "TASK_WDT";
+
+        case ESP_RST_WDT:
+            return "WDT";
+
+        case ESP_RST_DEEPSLEEP:
+            return "DEEPSLEEP";
+
+        case ESP_RST_BROWNOUT:
+            return "BROWNOUT";
+
+        case ESP_RST_SDIO:
+            return "SDIO";
+
+        default:
+            return "UNKNOWN";
+    }
+}
+```
