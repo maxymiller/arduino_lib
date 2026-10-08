@@ -6,7 +6,7 @@
 
 Exemplo:
 
-```
+```cpp
 #include <Arduino.h>
 
 #include <maxymiller_lib/erroSistema.h>
