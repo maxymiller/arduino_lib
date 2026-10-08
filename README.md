@@ -48,7 +48,7 @@ void loop() {
 |    `9` | `ESP_RST_BROWNOUT`  | Brownout: tensão/alimentação baixa   |
 |   `10` | `ESP_RST_SDIO`      | Reset através de SDIO                |
 
-```
+```cpp
 const char* erroSistema::nomeReset(esp_reset_reason_t motivo) {
     switch (motivo) {
         case ESP_RST_UNKNOWN:
