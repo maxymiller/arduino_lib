@@ -89,3 +89,11 @@ const char* erroSistema::nomeReset(esp_reset_reason_t motivo) {
     }
 }
 ```
+---
+
+## PLAD
+protocolo leve armazenamento de dado
+
+```cpp
+#include <maxymiller_lib/PLAD.h>
+```
