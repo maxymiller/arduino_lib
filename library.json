@@ -4,7 +4,9 @@
   "description": "Biblioteca para mostrar o erro",
   "keywords": [
     "ESP32",
-    "Mensagem de Error"
+    "Mensagem de Error",
+    "PLAD",
+    "armazenamento de dado"
   ],
   "authors": [
     {
