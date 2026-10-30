@@ -97,3 +97,12 @@ protocolo leve armazenamento de dado
 ```cpp
 #include <maxymiller_lib/PLAD.h>
 ```
+
+---
+
+## CPRGD
+compressão palavra repetitivo gigantes de dado
+
+```cpp
+#include <maxymiller_lib/CPRGD.h>
+```
