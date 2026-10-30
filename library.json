@@ -6,7 +6,9 @@
     "ESP32",
     "Mensagem de Error",
     "PLAD",
-    "armazenamento de dado"
+    "armazenamento de dado",
+    "CPRGD",
+    "compressão palavra repetitivo gigantes de dado"
   ],
   "authors": [
     {
