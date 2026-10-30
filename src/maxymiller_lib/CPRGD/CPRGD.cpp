@@ -1,4 +1,4 @@
-#include "maxymiller_lib/CPRGD.h"
+#include <maxymiller_lib/CPRGD.h>
 
 void CPRGD::compressao(String texto, String nao_comecar, String nao_fim) {
     TEXTO_INDEX = "";
