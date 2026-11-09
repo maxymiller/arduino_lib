@@ -217,7 +217,7 @@ void setup() {
   if(dpc.onLoad() > 0) {
     int loop = 0;
     String valor = dpc.postLoad(loop);
-    if(dpc.onLoad() == 1) {
+    if(dpc.onLoad() == 2) {
       String texto = "";
       while(valor != "") {
 
@@ -415,7 +415,7 @@ void setup() {
   if(dpc.onLoad() > 0) {
     int loop = 0;
     String valor = dpc.postLoad(loop);
-    if(dpc.onLoad() == 1) {
+    if(dpc.onLoad() == 2) {
       String texto = "";
       while(valor != "") {
 
